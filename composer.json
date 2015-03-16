@@ -3,15 +3,12 @@
     "description": "Thelia is an ecommerce CMS.",
     "license": "LGPL-3.0+",
     "require": {
-        "propel/propel": "dev-master#793aea6b762d9a72b083bfc49c74c574f67650c8",
-        "thelia/core": "2.1.2",
         "thelia/frontoffice-default-template": "2.1.2",
         "thelia/backoffice-default-template": "2.1.2",
         "thelia/email-default-template": "2.1.2",
         "thelia/pdf-default-template": "2.1.2",
         "thelia/setup": "2.1.2",
         "thelia/config": "2.1.2",
-        "thelia/smarty-module": "~1.1",
         "thelia/front-module": "~1.1",
         "thelia/virtual-product-control-module": "~1.1",
         "thelia/virtual-product-delivery-module": "~1.1",
@@ -32,7 +29,10 @@
         "thelia/hook-customer-module": "~1.1",
         "thelia/hook-products-offer-module": "~1.1",
         "thelia/hook-newsletter-module": "~1.1",
-        "thelia/carousel-module": "~1.0"
+        "thelia/carousel-module": "~1.0",
+        "thelia/core": "dev-smarty",
+        "thelia/smarty-module": "dev-smarty",
+        "propel/propel": "dev-master#793aea6b762d9a72b083bfc49c74c574f67650c8"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
